@@ -100,7 +100,13 @@ display: block;
     font-size: 0.8rem;
     color: var(--color-black);
 }
-
+.form_error{
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    color: red;
+    margin: 0.4rem;
+}
 .form_button{
     display: flex;
     align-items: center;
