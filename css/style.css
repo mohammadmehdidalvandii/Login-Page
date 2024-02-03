@@ -1,0 +1,24 @@
+/* <<<<<<<< import File css >>>>>>>> */
+@import url(/css/reset.css);
+/* <<<<<<<< import File css >>>>>>>> */
+
+/* <<<<<<<< Root = Variable >>>>>>>> */
+:root{
+    --color-blue : #3751FE;
+    --color-gray: #E5E5E5;
+    --color-white: #ffffff;
+    --color-black :rgba(0 0 0 0.6);
+}
+/* <<<<<<<< Root = Variable >>>>>>>> */
+
+/* <<<<<<<< Style Body >>>>>>>> */
+body{
+    font-family: "Roboto" , sans-serif;
+    font-size: 1rem;
+    color: var(--color-black);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* <<<<<<<< Style Body >>>>>>>> */
+
